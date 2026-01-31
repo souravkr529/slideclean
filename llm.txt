@@ -1,0 +1,51 @@
+# Zenly SlideClean - AI Watermark Remover
+
+> Free, private, offline watermark remover for NotebookLM slides and images.
+
+## What is Zenly SlideClean?
+
+Zenly SlideClean is a 100% free browser-based tool that removes watermarks from PDF slides and images. It's specifically optimized for Google NotebookLM slides but works with any PDF or image file.
+
+## Key Features
+
+- **100% Private**: All processing happens locally in your browser. No files are uploaded to any server.
+- **Completely Free**: No subscriptions, no limits, no hidden costs.
+- **Offline Capable**: Works without internet after initial page load.
+- **Supports PDF & Images**: Remove watermarks from both PDF slides and image files (PNG, JPG, JPEG).
+- **Lossless Quality**: Smart pixel cloning algorithm preserves original content quality.
+- **Unlimited File Size**: No restrictions on file size since processing is local.
+
+## How It Works
+
+1. Drag and drop your PDF or image file onto the upload area
+2. The tool automatically detects and removes the watermark using pixel cloning
+3. Download your clean file instantly
+
+## Technology
+
+- Built with PDF.js for PDF parsing
+- Uses jsPDF for PDF generation
+- Canvas API for image processing
+- WebAssembly-powered local processing
+
+## Use Cases
+
+- Remove watermarks from Google NotebookLM exported slides
+- Clean presentation slides for professional use
+- Remove logos or text watermarks from images
+- Prepare slides for sharing or printing
+
+## Privacy Guarantee
+
+Your files never leave your device. The entire watermark removal pipeline runs inside your browser using client-side JavaScript. There are no server uploads, no cloud processing, and no data collection.
+
+## Part of ZenlyTool Suite
+
+Zenly SlideClean is part of the ZenlyTool ecosystem - a collection of free, privacy-focused online utilities.
+
+Website: https://slides.zenlytool.com
+Main Site: https://zenlytool.com
+
+## Contact
+
+For questions or support, visit https://zenlytool.com

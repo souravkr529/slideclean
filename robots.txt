@@ -1,0 +1,16 @@
+# Robots.txt for Zenly SlideClean
+# https://slides.zenlytool.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://slides.zenlytool.com/sitemap.xml
+
+# LLM/AI Context Files (GEO - Generative Engine Optimization)
+# For ChatGPT, Perplexity, Claude, Gemini, etc.
+LLM: https://slides.zenlytool.com/llm.txt
+LLM-Full: https://slides.zenlytool.com/llms-full.txt
+
+# Crawl-delay (optional, be nice to bots)
+Crawl-delay: 1
