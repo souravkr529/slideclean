@@ -100,6 +100,24 @@
   }
   </script>
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ZenlyTool",
+      "item": "https://zenlytool.com"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "SlideClean",
+      "item": "https://slides.zenlytool.com"
+    }]
+  }
+  </script>
+
   <!-- Local Core Libraries -->
   <script src="assets/lib/pdf.min.js"></script>
   <script src="assets/lib/jspdf.umd.min.js"></script>
@@ -729,9 +747,9 @@
     <!-- 1. Hero Area -->
     <section class="hero-section">
       <div class="hero-text">
-        <h1 class="reveal">Remove Watermarks<br>With Precision.</h1>
-        <p class="hero-desc reveal" style="transition-delay: 0.1s;">Engineered for NotebookLM slides. Powered by
-          ZenlyTool's local processing engine ensures your data never leaves your device.</p>
+        <h1 class="reveal">Remove Watermarks<br>For Clean Slides.</h1>
+        <p class="hero-desc reveal" style="transition-delay: 0.1s;">The #1 tool engineered for NotebookLM slides. Get
+          professional presentations instantly with ZenlyTool's private local processing engine.</p>
       </div>
 
       <div class="spotlight-wrapper" id="cardWrapper" style="--x: 625.5px; --y: 849.21875px;">
@@ -741,6 +759,7 @@
           <!-- State 1: Idle -->
           <div class="ui-state active" id="stateIdle">
             <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <title>Upload Slide or Image</title>
               <path d="M12 16.5V3.5m0 0L7 8.5m5-5l5 5M4 19.5v1.5a2.5 2.5 0 002.5 2.5h11a2.5 2.5 0 002.5-2.5v-1.5"
                 stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
