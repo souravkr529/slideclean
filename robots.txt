@@ -8,9 +8,10 @@ Allow: /
 Sitemap: https://slides.zenlytool.com/sitemap.xml
 
 # LLM/AI Context Files (GEO - Generative Engine Optimization)
-# For ChatGPT, Perplexity, Claude, Gemini, etc.
-LLM: https://slides.zenlytool.com/llm.txt
-LLM-Full: https://slides.zenlytool.com/llms-full.txt
+# For ChatGPT, Perplexity, Claude, Gemini, Apple Intelligence, etc.
+# These files are served at the root for AI crawlers to discover.
+# LLM: https://slides.zenlytool.com/llm.txt
+# LLM-Full: https://slides.zenlytool.com/llms-full.txt
 
-# Crawl-delay (optional, be nice to bots)
+# Crawl-delay (be nice to bots)
 Crawl-delay: 1
