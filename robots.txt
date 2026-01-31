@@ -12,6 +12,3 @@ Sitemap: https://slides.zenlytool.com/sitemap.xml
 # These files are served at the root for AI crawlers to discover.
 # LLM: https://slides.zenlytool.com/llm.txt
 # LLM-Full: https://slides.zenlytool.com/llms-full.txt
-
-# Crawl-delay (be nice to bots)
-Crawl-delay: 1
