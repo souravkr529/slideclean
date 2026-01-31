@@ -611,6 +611,73 @@
         gap: 60px;
       }
     }
+
+    /* SEO Content Styles */
+    .seo-content {
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+      border-top: 1px solid var(--border-light);
+      padding-top: 80px;
+    }
+
+    .content-block h2 {
+      font-size: 28px;
+      margin-bottom: 24px;
+      letter-spacing: -0.02em;
+    }
+
+    .step-list {
+      list-style: none;
+      counter-reset: steps;
+      display: grid;
+      gap: 20px;
+    }
+
+    .step-list li {
+      counter-increment: steps;
+      padding-left: 40px;
+      position: relative;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    .step-list li::before {
+      content: counter(steps);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 24px;
+      height: 24px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-family: var(--font-mono);
+      color: var(--text-main);
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 32px;
+    }
+
+    .faq-item h4 {
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 12px;
+      color: var(--text-main);
+    }
+
+    .faq-item p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
   </style>
 </head>
 
@@ -728,6 +795,43 @@
         </div>
       </div>
 
+    </section>
+
+    <!-- 3. Educational / SEO Content Section -->
+    <section class="seo-content reveal" style="transition-delay: 0.4s;">
+      <div class="content-block">
+        <h2>How to Remove Watermarks from NotebookLM Slides</h2>
+        <p style="margin-bottom: 32px; color: var(--text-muted);">Removing watermarks from your Google NotebookLM
+          exported slides is simple and secure. Unlike other tools, we ensure a professional finish without technical
+          hassle.</p>
+        <ol class="step-list">
+          <li><strong>Export your slides:</strong> Save your NotebookLM presentation as a PDF or image file from the
+            Google platform.</li>
+          <li><strong>Upload to SlideClean:</strong> Drag and drop your file into the secure, encrypted-like processing
+            area above.</li>
+          <li><strong>Automated Cleaning:</strong> Our local AI-powered engine instantly detects the watermark pattern
+            and patches it using lossless pixel cloning.</li>
+          <li><strong>Download:</strong> Get your professional, watermark-free presentation slides in seconds.</li>
+        </ol>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h4>Is this NotebookLM watermark remover free?</h4>
+          <p>Yes, Zenly SlideClean is 100% free. We believe in providing high-quality tools without hidden charges or
+            subscription barriers.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Is it safe to remove watermarks online?</h4>
+          <p>While many sites are unsafe, SlideClean is 100% private. All processing happens locally in your browser;
+            your sensitive slides never touch our servers.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Does it reduce slide quality?</h4>
+          <p>No. Our lossless engine only modifies the specific watermark area, ensuring the rest of your slide remains
+            at original high resolution.</p>
+        </div>
+      </div>
     </section>
 
   </div>
