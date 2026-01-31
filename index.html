@@ -1127,6 +1127,15 @@
         if (rect.top < window.innerHeight) el.classList.add('active');
       });
     });
+
+    // --- Service Worker Registration (Powerful Cache System) ---
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('[SW] Registered:', reg.scope))
+          .catch(err => console.error('[SW] Error:', err));
+      });
+    }
   </script>
 
 </body>
