@@ -151,7 +151,8 @@
       box-sizing: border-box;
     }
 
-    body {
+    body,
+    html {
       background-color: var(--bg-base);
       color: var(--text-main);
       font-family: var(--font-sans);
@@ -162,9 +163,11 @@
       overflow-x: hidden;
       /* Hide scrollbar but allow scrolling */
       scrollbar-width: none;
+      -ms-overflow-style: none;
     }
 
-    body::-webkit-scrollbar {
+    body::-webkit-scrollbar,
+    html::-webkit-scrollbar {
       display: none;
     }
 
